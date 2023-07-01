@@ -1,0 +1,38 @@
+# Arquivos de configuração específicos do ambiente
+.env
+.env.*
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+env-fast-api/
+
+# Dependências geradas pelo pip
+pip-lock.txt
+pipenv.lock
+requirements.txt
+
+# Logs e arquivos temporários
+*.log
+*.swp
+*~
+tmp/
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Arquivos de IDE específicos
+.vscode/
+.idea/
+*.code-workspace
+
+
